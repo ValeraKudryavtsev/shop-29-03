@@ -1,0 +1,87 @@
+.feedback {
+    background-image: url(../img/feedback-bkg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.feedback__wrp {
+    min-height: 448px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feedback__quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+}
+
+.feedback__quote-text {
+    margin-top: 30px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.feedback__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 557px;
+}
+
+.feedback__subtitle {
+    margin-bottom: 32px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.feedback__subtitle-regular {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.feedback__form {
+    display: flex;
+    height: 49px;
+}
+
+.feedback__form-input {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: $grey;
+    background-color: #E1E1E1;
+    width: 256px;
+    border: none;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    padding-left: 22px;
+}
+
+.feedback__form-input:focus {
+    color: $dark-pink;
+    background-color: $catalog-item-bkg;
+}
+
+.feedback__form-button {
+    color: $white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    background-color: $dark-pink;
+    text-align: center;
+    width: 100px;
+    border: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}

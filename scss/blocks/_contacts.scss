@@ -1,0 +1,43 @@
+.contacts {
+    background-color: $black;
+}
+
+.contacts__wrp {
+    display: flex;
+    justify-content: space-between;
+    min-height: 79px;
+    align-items: center;
+}
+
+.contacts__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: $white;
+}
+
+.contacts__list {
+    display: flex;
+}
+
+.contacts__item {
+    margin-left: 8px;
+    background-color: $white;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts__img {
+    fill: $black;
+}
+
+.contacts__item:hover {
+    background-color: $dark-pink;
+}
+
+.contacts__item:hover .contacts__img {
+    fill: $white;
+}

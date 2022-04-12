@@ -1,0 +1,96 @@
+.sign-in__wrp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-in__form {
+    width: 362px;
+}
+
+.sign-in__form-title {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    margin-bottom: 20px;
+}
+
+.sign-in__form-input {
+    display: block;
+    margin-bottom: 20px;
+    border: 1px solid $grey;
+    height: 44px;
+    width: 100%;
+    color: $grey;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
+    padding-left: 16px;
+}
+
+.sign-in__form-input:focus {
+    color: $dark-pink;
+    background-color: $white;
+}
+
+.sign-in__form-radio {
+    display: inline-block;
+    margin-top: 12px;
+    margin-bottom: 32px;
+    margin-right: 10px;
+}
+
+.sign-in__form-label {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 13px;
+    color: $black;
+    margin-right: 20px;
+}
+
+.sign-in__form-text {
+    margin-top: -5px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
+    color: $grey;
+}
+
+.sign-in__form-button {
+    margin: 39px 0 96px 0;
+    border: none;
+    width: 167px;
+    height: 50px;
+    background-color: $dark-pink;
+}
+
+.sign-in__form-button span {
+    color: $white;
+    text-transform: uppercase;
+}
+
+.sign-in__form-button span::after {
+    content: url(../img/arrow.svg);
+    margin-left: 20px;
+}
+
+.sign-in__title {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+
+.sign-in__text {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+}
+
+.sign-in__list {
+    width: 652px;
+}
+
+.sign-in__item {
+    margin-bottom: 21px;
+}

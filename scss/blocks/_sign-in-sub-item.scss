@@ -1,0 +1,8 @@
+.sign-in-sub-item__item {
+    margin-bottom: 16px;
+}
+
+.sign-in-sub-item__item .sign-in__text::before {
+    content: url("../img/point.svg");
+    margin-right: 23px;
+}
