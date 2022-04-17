@@ -41,3 +41,16 @@
 .contacts__item:hover .contacts__img {
     fill: $white;
 }
+
+.contacts__item:active .contacts__img {
+    fill: $black;
+}
+
+@media (max-width: 375px) {
+    .contacts__wrp {
+        flex-direction: column-reverse;
+        padding-top: 43px;
+        padding-bottom: 9px;
+        min-height: 100px;
+    }
+}

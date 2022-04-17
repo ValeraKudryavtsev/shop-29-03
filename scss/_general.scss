@@ -23,3 +23,15 @@ body {
     clip-path: inset(50%);
     margin: -1px;
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 736px;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        width: 359px;
+    }
+}
