@@ -1,0 +1,19 @@
+.registration {
+    background-color: $light-pink;
+    margin-bottom: 64px;
+}
+
+.registration__title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: $dark-pink;
+}
+
+.registration__title-wrp {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    min-height: 148px;
+}

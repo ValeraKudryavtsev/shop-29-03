@@ -1,0 +1,112 @@
+.header {
+    background-color: $black;
+    position: relative;
+}
+
+.header__wrp {
+    display: flex;
+    justify-content: space-between;
+    min-height: 75px;
+    align-items: center;
+    // position: relative;
+}
+
+.header__logo {
+    margin-right: 41px;
+}
+
+.header__loupe {
+    fill: $white;
+}
+
+.header__loupe:hover {
+    fill: $dark-pink;
+}
+
+.header__burger {
+    fill: $white;
+}
+
+.header__burger:hover {
+    fill: $dark-pink;
+    cursor: pointer;
+}
+
+.header__person {
+    fill: $white;
+}
+
+.header__person:hover {
+    fill: $dark-pink;
+}
+
+.header__basket {
+    fill: $white;
+}
+
+.header__basket:hover {
+    fill: $dark-pink;
+}
+
+.header__logo-link {
+    text-decoration: none;
+}
+
+.header__list {
+    display: flex;
+}
+
+.header__link {
+    margin-left: 34px;
+    text-decoration: none;
+}
+
+.header__button {
+    border: none;
+    background-color: transparent;
+}
+
+.header__nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    text-decoration: none;
+    background-color: $white;
+    width: 232px;
+    height: 764px;
+    box-shadow: -5px 10px 15px 0px rgba(128, 128, 128, 0.3);
+    z-index: 2;
+}
+
+.header__nav-close {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 37px;
+}
+
+.header__nav-close-button {
+    border: none;
+    background-color: inherit;
+}
+
+.header__nav-close-icon {
+    display: block;
+    margin-right: 16px;
+    fill: $grey;
+}
+
+.header__nav-close-icon:hover {
+    fill: $black;
+}
+
+.header__title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    color: black;
+    text-transform: uppercase;
+    padding-left: 33px;
+    margin-bottom: 24px;
+}
