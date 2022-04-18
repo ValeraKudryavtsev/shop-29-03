@@ -36,3 +36,15 @@
     line-height: 17px;
     color: $grey;
 }
+
+@media (max-width: 768px) {
+    .advantages__list {
+        flex-direction: column;
+    }
+    .advantages__list:last-child {
+        padding-bottom: 64px;
+    }
+    .advantages__item {
+        padding-top: 48px;
+    }
+}

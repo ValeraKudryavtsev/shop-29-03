@@ -40,3 +40,43 @@
 .brand__subtitle-pink {
     color: $dark-pink;
 }
+
+@media (max-width: 768px) {
+    .brand {
+        margin-bottom: 20px;
+    }
+    .brand__img {
+        max-height: 386px;
+    }
+    .brand__title-wrp {
+        padding-left: 60px;
+    }
+    .brand__title {
+        font-size: 44px;
+        font-weight: 900;
+        line-height: 53px;
+    }
+    .brand__subtitle {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+    }
+    .brand__title::before {
+        width: 12px;
+        height: 92px;
+        top: 0px;
+        left: -30px;
+    }
+}
+
+@media (max-width: 375px) {
+    .brand {
+        margin-bottom: 34px;
+    }
+    .brand__title-wrp {
+        min-height: 363px;
+    }
+    .brand__img {
+        display: none;
+    }
+}
