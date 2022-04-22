@@ -146,8 +146,18 @@
     margin-bottom: 24px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 520px) {
     .header__link {
         display: none;
+    }
+    .header__logo {
+        margin-right: 25px;
+    }
+    .header__search {
+        width: 55%;
+        max-width: 256px;
+    }
+    .header__loupe {
+        padding-right: 10px;
     }
 }
