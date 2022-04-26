@@ -1,0 +1,114 @@
+.description {
+    width: 100%;
+    min-height: 601px;
+    border: .5px solid #EAEAEA;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 81px;
+}
+
+.description__wrp {
+    width: 641px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description__title {
+    color: $dark-pink;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    text-transform: uppercase;
+    margin-top: 64px;
+    margin-bottom: 12px;
+}
+
+.description__line {
+    display: block;
+    width: 63px;
+    height: 3px;
+    background-color: $dark-pink;
+    margin-bottom: 12px;
+}
+
+.description__subtitle {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin-bottom: 48px;
+}
+
+.description__text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    color: $grey;
+    width: 555px;
+    margin-bottom: 32px;
+}
+
+.description__price {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    color: $dark-pink;
+    margin-bottom: 65px;
+}
+
+.description__subline {
+    width: 100%;
+    color: $grey;
+    background-color: $grey;
+    border: none;
+    height: 1px;
+}
+
+.description__list {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+    margin-bottom: 49px;
+}
+
+.description__item {
+    padding-left: 21px;
+    padding-right: 21px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: $black;
+    position: relative;
+}
+
+.description__item::after {
+    content: url('../img/drop-down.svg');
+    margin-left: 10px;
+    position: absolute;
+    top: -2px;
+}
+
+.description__cart-button {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    border: 1px solid $dark-pink;
+    color: $dark-pink;
+    text-decoration: none;
+    width: 138px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description__cart-button>span {
+    margin-left: 13px;
+}
+
+.description__cart-icon {
+    fill: $dark-pink;
+}
