@@ -1,0 +1,30 @@
+.product {
+    background-color: $light-pink;
+}
+
+.product__title {
+    color: $dark-pink;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-transform: uppercase;
+}
+
+.product__subtitle {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+
+.product__subtitle-pink {
+    color: $dark-pink;
+    font-weight: 700;
+}
+
+.product__wrp {
+    display: flex;
+    align-items: center;
+    min-height: 148px;
+    justify-content: space-between;
+}
