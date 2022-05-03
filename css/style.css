@@ -1285,6 +1285,9 @@ table {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 81px;
+  -webkit-transform: translateY(-65px);
+          transform: translateY(-65px);
+  background-color: #FFFFFF;
 }
 
 .description__wrp {
